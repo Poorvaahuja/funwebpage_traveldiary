@@ -1,0 +1,63 @@
+table{
+    background: linear-gradient(skyblue, lightgreen);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+body{
+    background-image: url("background\ pic.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+    
+
+}
+
+
+#box1{
+    border: 5px solid;
+    width: 800px;
+    height: 100px;
+    font-size: 18px;
+    text-align: center;
+    background: linear-gradient(skyblue, lightgreen);
+
+    transform: translateX(center);
+    width: 100%;
+}
+h1{
+    background-color:azure;
+}
+h5{
+    background-color: antiquewhite;
+}
+h4{
+    background-color: blanchedalmond;
+}
+@keyframes myimg{
+    from{margin-left: 100%};
+    to{margin-left: 0%};
+}
+img{
+    animation: myimg;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    animation-timing-function: ease;
+    animation-duration: 5s;
+}
+@media only screen and (min-width: 768px){
+    img{
+        display: block;
+        
+    }
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    width: 100%;
+}
+
